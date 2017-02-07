@@ -1,6 +1,6 @@
 {
-  "name": "mapasculturais-app",
-  "app_id": "d5ff46e2",
+  "name": "agendaquebradasp-app",
+  "app_id": "!!!O_SEU_APP_ID!!!",
   "gulpStartupTasks": [
     "sass",
     "watch"
