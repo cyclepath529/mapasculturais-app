@@ -2,7 +2,7 @@
 
 Este é o repositório do aplicativo Android do sistema [Mapas Culturais](https://github.com/hacklabr/mapasculturais). Ele é orientado para funcionar como uma espécie de Agenda Cultural. Entre suas principais funcionalidades, estão:
 
-* Apresentar uma consulta dos dados (Eventos, Espaços, Agentes, Projetos) de todas as instâncias vigentes do Mapas Culturais; 
+* Apresentar uma consulta dos dados (Eventos, Espaços, Agentes, Projetos) de todas as instâncias vigentes do Mapas Culturais;
 * Permitir a seleção manual de uma determinada instalação;
 * Exibir geolocalização do mapa a partir da instalação mais proxima, pela localização do gps do mobile device;
 
@@ -49,7 +49,7 @@ E abrir o URL [http://localhost:8100](http://localhost:8100)
 ----------
 
 Na raiz do projeto você terá o diretorio scss onde ficará seu sass. só editar!
-O ionic serve já faz o watch dos arquivos, recompila na alteração e faz o 
+O ionic serve já faz o watch dos arquivos, recompila na alteração e faz o
 livereolad
 
 * Resources
@@ -72,7 +72,7 @@ instalada já haverá falha)
 $ ionic platform add android
 ```
 
-* Aqui, precisamos ter um dispositivo plugado ao computador aceitando 
+* Aqui, precisamos ter um dispositivo plugado ao computador aceitando
 instalação de fontes desconhecidas e com o modo desenvolvedor ativado.
 ```
 $ ionic run android
@@ -87,4 +87,3 @@ $ android
 ```
 $ ionic emulate android
 ```
-
