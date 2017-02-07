@@ -16,6 +16,25 @@ angular.module('mapasculturais', [
     'ngCordova',
 ])
 
+// angular.module for cloud services
+angular.module('starter', ['ionic', 'ionic.cloud', 'starter.controllers', 'starter.services'])
+
+.config(function($ionicCloudProvider) {
+  $ionicCloudProvider.init({
+    "core": {
+      "app_id": "!!!O_SEU_APP_ID!!!"
+    },
+    "push": {
+      "sender_id": "!!!O_SEU_SENDER_ID!!!",
+      "pluginConfig": {
+        "android": {
+          "iconColor": "#343434"
+        }
+      }
+    }
+  });
+})
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
