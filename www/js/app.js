@@ -7,6 +7,7 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('mapasculturais', [
     'ionic',
+    'ionic.cloud',
     'mapasculturais.controllers',
     'mapasculturais.routes',
     'mapasculturais.services',
@@ -16,8 +17,8 @@ angular.module('mapasculturais', [
     'ngCordova',
 ])
 
-// angular.module for cloud services
-angular.module('starter', ['ionic', 'ionic.cloud', 'starter.controllers', 'starter.services'])
+// angular.module for cloud services, example:
+// angular.module('starter', 'ionic', 'ionic.cloud', 'starter.controllers', 'starter.services'])
 
 .config(function($ionicCloudProvider) {
   $ionicCloudProvider.init({
@@ -46,6 +47,14 @@ angular.module('starter', ['ionic', 'ionic.cloud', 'starter.controllers', 'start
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
+
+// registro pras notificacoes, fazendo aqui para executar sempre que o app executa
+    $ionicPush.register().then(function(t) {
+      return $ionicPush.saveToken(t);
+    }).then(function(t) {
+      console.log('Token saved:', t.token);
+    });
+
   });
 })
 
