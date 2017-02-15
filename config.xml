@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="br.com.hacklab.mapasculturais" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Mapas Culturais</name>
+  <name>Curso Android</name>
   <description>
-        Aplicativo da Plataforma Mapas Culturais.
+        Curso Aplicativos Android Software Livre.
     </description>
-  <author email="contato@hacklab.com.br" href="http://hacklab.com.br/">
+  <author email="cyclepath@gmx.com" href="http://cloud-ia.tk/">
       hacklab/
     </author>
   <content src="index.html"/>
