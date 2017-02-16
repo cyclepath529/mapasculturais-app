@@ -1,4 +1,4 @@
-<ion-view title="Eventos">
+<ion-view title="Atividades">
     <div class="header event">
         <filter-events on-apply="applyFilters" filters="filters"></filter-events>
     </div>    
@@ -30,7 +30,7 @@
                     {{::entity.start.format('LL')}} das {{::entity.start.format('HH:mm')}} às {{::entity.end.format('HH:mm')}}</li></ul>
                     
                     <div ng-if="entity.isVerified" class="information">
-                        <span class="label"> este evento é verificado</span>
+                        <span class="label"> esta atividade é verificada</span>
                     </div>
                     
                     <div class="information">
